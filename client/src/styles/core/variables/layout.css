@@ -1,0 +1,27 @@
+:root {
+  /* Safe areas */
+  --safearea-top: env(safe-area-inset-top, 0px);
+  --safearea-bottom: env(safe-area-inset-bottom, 0px);
+  --safearea-left: env(safe-area-inset-left, 0px);
+  --safearea-right: env(safe-area-inset-right, 0px);
+  --safearea: var(--safearea-top) var(--safearea-left) var(--safearea-bottom) var(--safearea-right);
+
+  /* Sizes */
+  --padding-size: min(max(2.4169dvw, 16px), 24px);
+
+  /* Padding */
+  --padding-horizontal: var(--padding-size);
+  --padding-vertical: var(--padding-size);
+  --padding: var(--padding-vertical) var(--padding-horizontal);
+  --safearea-padding: calc(var(--padding-vertical) + var(--safearea-top)) calc(var(--padding-horizontal) + var(--safearea-left)) calc(var(--padding-vertical) + var(--safearea-bottom)) calc(var(--padding-horizontal) + var(--safearea-right));
+
+  /* Margin */
+  --margin-horizontal: var(--padding-horizontal);
+  --margin-vertical: var(--padding-vertical);
+
+  /* Border radius */
+  --border-radius-round: max(100vw, 100vh);
+  --border-radius: 8px;
+  --border-radius-2x: calc(var(--border-radius) * 2);
+  --border-radius-4x: calc(var(--border-radius) * 4);
+}

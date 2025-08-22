@@ -1,0 +1,13 @@
+:root {
+  --blur-small: 5px;
+  --blur-medium: 15px;
+  --blur-large: 30px;
+  --icon-filter: invert(0);
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --icon-filter: invert(1);
+  }
+}

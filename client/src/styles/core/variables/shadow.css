@@ -1,0 +1,10 @@
+:root {
+   /* Shgadow color */
+   --shadow-color: #0000001A;
+
+   /* Properties */
+   --shadow-small: 0px 2px 3px var(--shadow-color) !important;
+   --shadow-regular: 0px 4px 5px var(--shadow-color) !important;
+   --shadow-medium: 0px 2px 15px var(--shadow-color) !important;
+   --shadow-large: 0px 0px 30px var(--shadow-color) !important;
+}

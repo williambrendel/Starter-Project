@@ -1,0 +1,1 @@
+export const HAS_TOUCH_SCREEN = "ontouchstart" in window || navigator.maxTouchPoints > 0;

@@ -1,0 +1,11 @@
+:root {
+  --font-family: "Poppins", sans-serif, system-ui, Arial, Helvetica, sans-serif;
+}
+
+/* Global styles */
+* {
+  /* Font */
+  font-family: var(--font-family);
+  font-optical-sizing: auto;
+  font-style: normal;
+}
