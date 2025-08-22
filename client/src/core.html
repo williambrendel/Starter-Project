@@ -37,29 +37,13 @@
     <script src="./modules/utilities/lockDown.js" type="module"></script> -->
 
     <script type="module">
-      // import {
-      //   BUTTON,
-      //   DOCUMENT,
-      //   FLEXBOX,
-      //   GAP,
-      //   GLOBAL_STYLES,
-      // } from "./styles/core/stylesheets/index.js";
-      import {
-        BUTTON,
-        DOCUMENT,
-        FLEXBOX,
-        GAP,
-        GLOBAL_STYLES,
-      } from "../min/styles/core/stylesheets/index.min.js";
+      // import ALL from "./styles/core/stylesheets/index.js";
+      import ALL from "../min/styles/core/stylesheets/all.min.js";
 
       // Apply both stylesheets to the current document.
       document.adoptedStyleSheets = [
         ...document.adoptedStyleSheets, // keep any existing sheets
-        GLOBAL_STYLES,
-        DOCUMENT,
-        GAP,
-        FLEXBOX,
-        BUTTON
+        ...ALL
       ];
     </script>
   </head>

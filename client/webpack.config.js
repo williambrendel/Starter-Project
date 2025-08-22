@@ -9,6 +9,7 @@ module.exports = require("../webpack/getConfig")({
     "modules/core/index.min": [__dirname, "./src/modules/core/index.js"],
     "modules/utilities/lockDown.min": [__dirname, "./src/modules/utilities/lockDown.js"],
     "styles/core/stylesheets/index.min": [__dirname, "./src/styles/core/stylesheets/index.js"],
+    "styles/core/stylesheets/all.min": [__dirname, "./src/styles/core/stylesheets/all.js"],
     "styles/core/variables/index.min": [__dirname, "./src/styles/core/variables/index.css"],
     // App.
     "modules/app/index.min": [__dirname, "./src/modules/app/index.js"],

@@ -13,6 +13,10 @@ body {
   min-width: 100svw;                    /* Fallback for when UI is fully shown */
   min-width: 100lvw;                    /* Fallback for when UI is fully hidden */
   min-width: 100vw;                     /* Legacy fallback */
+  min-width: -webkit-fill-available;    /* Safari / iOS Chrome */
+  min-width: -moz-available;            /* Firefox */
+  min-width: fill-available;            /* Draft spec */
+  min-width: stretch;
   min-height: 100dvh;                   /* Dynamic viewport */
   min-height: 100svh;                   /* Fallback for when UI is fully shown */
   min-height: 100lvh;                   /* Fallback for when UI is fully hidden */
