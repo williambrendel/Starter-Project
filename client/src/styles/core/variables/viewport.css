@@ -1,0 +1,10 @@
+:root {
+  /* Viewport */
+  --vsx: 1;
+  --vsy: 1;
+  --vs: calc(var(--vsx, 1) * var(--vsy, 1));
+  --vw: calc(var(--vsx, 1) * 1dvw);
+  --vh: calc(var(--vsy, 1) * 1dvh);
+  --viewport-width: calc(100 * var(--vw, 1dvw));
+  --viewport-height: calc(100 * var(--vh, 1dvh));
+}

@@ -24,4 +24,16 @@
   --border-radius: 8px;
   --border-radius-2x: calc(var(--border-radius) * 2);
   --border-radius-4x: calc(var(--border-radius) * 4);
+
+  /* Gap */
+  --gap: var(--padding-size);
+  --text-gap: var(--size-8-12, min(max(calc(1.2085dvw), 8px), 12px));
+  --gap-half: calc(0.5 * var(--gap));
+  --gap-2x: calc(2 * var(--gap));
+  --gap-3x: calc(3 * var(--gap));
+  --gap-4x: calc(4 * var(--gap));
+  --text-gap-half: calc(0.5 * var(--text-gap));
+  --text-gap-2x: calc(2 * var(--text-gap));
+  --text-gap-3x: calc(3 * var(--text-gap));
+  --text-gap-4x: calc(4 * var(--text-gap));
 }

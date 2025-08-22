@@ -41,12 +41,14 @@
       //   BUTTON,
       //   DOCUMENT,
       //   FLEXBOX,
+      //   GAP,
       //   GLOBAL_STYLES,
       // } from "./styles/core/stylesheets/index.js";
       import {
         BUTTON,
         DOCUMENT,
         FLEXBOX,
+        GAP,
         GLOBAL_STYLES,
       } from "../min/styles/core/stylesheets/index.min.js";
 
@@ -55,6 +57,7 @@
         ...document.adoptedStyleSheets, // keep any existing sheets
         GLOBAL_STYLES,
         DOCUMENT,
+        GAP,
         FLEXBOX,
         BUTTON
       ];
@@ -64,7 +67,7 @@
     <h1>Core modules and CSS</h1>
     <h2>Atoms</h2>
     <hr/><br/>
-    <div class="row">
+    <div class="row gap">
       <blob-spinner></blob-spinner>
       <loading-spinner></loading-spinner>
       <four-dots-spinner></four-dots-spinner>
