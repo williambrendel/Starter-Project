@@ -17,6 +17,7 @@ const _styles = getStylesheet(`
     height: var(--size);
     min-height: var(--size);
     box-sizing: border-box;
+    overflow: hidden !important;
   }
 
   :host([tiny]) {
