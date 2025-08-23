@@ -36,7 +36,7 @@ export const FLEXBOX = getStylesheet(`
 }
 
 /* Row positioning */
-/* Container: left middle right spread | top center bottom */
+/* Container: left center right spread | top middle bottom */
 /* Children: fill | extend */
 .flex.top,
 .row.top {
@@ -60,12 +60,12 @@ export const FLEXBOX = getStylesheet(`
 
 .flex.center,
 .row.center {
-  align-items: center;
+  justify-content: center;
 }
 
 .flex.middle,
 .row.middle {
-  justify-content: center;
+  align-items: center;
 }
 
 .flex > .self-top,
@@ -96,6 +96,7 @@ export const FLEXBOX = getStylesheet(`
   flex: 1;
 }
 
+.column.stretch,
 .row.full {
   width: 100%;
   height: auto;
@@ -148,15 +149,16 @@ export const FLEXBOX = getStylesheet(`
   align-items: flex-end;
 }
 
-.column.middle {
+.column.center {
   align-items: center;
 }
 
-.column.center {
+.column.middle {
   justify-content: center;
 }
 
 /* Element stretching */
+.row.stretch,
 .column.full {
   width: auto;
   height: 100%;

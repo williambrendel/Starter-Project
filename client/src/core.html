@@ -40,6 +40,8 @@
       // import ALL from "./styles/core/stylesheets/index.js";
       import ALL from "../min/styles/core/stylesheets/all.min.js";
 
+      console.log(ALL);
+
       // Apply both stylesheets to the current document.
       document.adoptedStyleSheets = [
         ...document.adoptedStyleSheets, // keep any existing sheets
@@ -48,7 +50,7 @@
     </script>
   </head>
   <body>
-    <h1>Core modules and CSS</h1>
+    <h1 class="row stretch center">Core modules and CSS</h1>
     <h2>Atoms</h2>
     <hr/><br/>
     <div class="row gap">
